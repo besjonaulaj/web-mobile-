@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>besjonaulaj</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('https://iphoneswallpapers.com/wp-content/uploads/2019/03/Twin-Towers-iPhone-Wallpaper.jpg');
+      min-height: 100%;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Besjona Ulaj</b></h1>
+    <p>Student at </p>
+	<p>The American University in Kosovo </p>
+    <img src="https://iphoneswallpapers.com/wp-content/uploads/2019/03/Twin-Towers-iPhone-Wallpaper.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://iphoneswallpapers.com/wp-content/uploads/2019/03/Twin-Towers-iPhone-Wallpaper.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+   
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey"></h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://wallpapercave.com/wp/wp3287908.jpg" style="width:200%;height=30%">
+        
+      </div>
+
+      
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Hi,
+I'm Besjona Ulaj! I'm from Montenegro, and I am a sophomore working on a Computing Information Technology degree at RIT Kosovo.
+    </p>
+	<p> I love solving programming problems in most efficient ways. 
+								I don't have a lot of experience with coding because I have just started
+								but in the future I believe I will get better. </p>
+    
+
+    <!-- Grid for skills and likes -->
+    <h3 class="w3-padding-16">My Skills and Likes</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">My skills</li>
+          <li class="w3-padding-16">Drawing</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Web Design</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">My likes</li>
+          <li class="w3-padding-16">Books</li>
+          <li class="w3-padding-16">Music</li>
+          <li class="w3-padding-16">Walking</li>
+          </li>
+        </ul>
+      </div>
+
+    <!-- End Grid/Pricing tables -->
+   </div>
+   
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">Books</h3>
+	<p> Because I enjoy reading, I've included three of my favorite books here. </p>
+    <img src="https://pictures.abebooks.com/isbn/9781851527175-uk.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Crime and Punishment</span> </p>
+    <p>-Fyodor Dostoevsky</p><br>
+   
+    <img src="https://media.s-bol.com/NPrMYD2O2AL/550x801.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+    <p><span class="w3-large w3-text-black w3-margin-right">The General of the Dead Army</span> </p>
+    <p>-Ismail Kadare</p><br>
+    
+    <img src="data:image/jpeg;base64,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" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+    <p><span class="w3-large w3-text-black w3-margin-right">The Alchemist</span> </p>
+    <p>-Paulo Coelho</p><br>
+    
+   
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Prishtine, Kosovo</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: -</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: besjonaulaj@gmail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="https://appassets.mvtdev.com/map/41/s/5929/147555502.jpg" class="w3-image w3-greyscale" style="width:90%;margin:32px 0">
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"> Besjona Ulaj</i>
+	
+    <i class="fa fa-instagram w3-hover-opacity"> besjonau</i>
+	
+    <i class="fa fa-linkedin w3-hover-opacity"> besjona-ulaj</i>
+	
+    <i class="fa fa-university w3-hover-opacity"> AUK</i>
+    <!-- End footer -->
+  </footer>
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
